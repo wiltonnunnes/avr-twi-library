@@ -1,3 +1,7 @@
 #include <avr/io.h>
 
-void twi_master_init();
+void twi_init();
+
+void twi_start();
+
+void twi_stop();
